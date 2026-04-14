@@ -1,0 +1,14 @@
+.homecards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  justify-content: space-between;
+  margin-top: 40px;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  height: auto;
+  width: calc(100% - 100px);
+  padding: 56px 50px;
+}
+
+/*# sourceMappingURL=Homecards.css.map */

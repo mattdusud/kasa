@@ -1,0 +1,32 @@
+.error {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error .error-code {
+  font-size: 288px;
+  font-weight: 700;
+  color: #FF6060;
+  margin: 139px;
+  height: 263px;
+  align-content: center;
+}
+.error .error-message {
+  font-size: 36px;
+  font-weight: 500;
+  color: #FF6060;
+  margin-bottom: 139px;
+}
+.error .error-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+/*# sourceMappingURL=Error.css.map */

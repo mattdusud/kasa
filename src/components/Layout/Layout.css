@@ -1,0 +1,17 @@
+.layout {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1240px;
+  justify-content: space-between;
+}
+.layout .layout-content {
+  width: 100%;
+  flex: 1;
+  height: auto;
+}
+
+/*# sourceMappingURL=Layout.css.map */
