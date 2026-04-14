@@ -2,6 +2,7 @@
   background-color: black;
   height: 209px;
   width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,5 +24,3 @@
   color: white;
   margin: 30px;
 }
-
-/*# sourceMappingURL=Footer.css.map */

@@ -1,10 +1,10 @@
 import './Banner.css'
 
-function Banner() {
+const Banner = ({src,alt,text,light}) => {
   return (
     <div className="banner">
-      <img src="/src/assets/photoHome.png" alt="Bannière Kasa" className="banner-image"/>
-        <h1 className="slogan">Chez vous, partout et ailleurs</h1>
+      <img src={src} alt={alt} className={`banner-image ${light ? 'banner-light' : 'banner-dark'}`}/>
+        <h1 className="slogan">{text}</h1>
     </div>
   )
 }

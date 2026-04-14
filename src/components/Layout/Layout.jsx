@@ -5,13 +5,15 @@ import './Layout.css'
 
 function Layout() {
   return (
-    <div className="layout">
-      <Header />
-      <main className="layout-content">
-        <Outlet />
-      </main>
+    <>
+      <div className="layout">
+        <Header />
+        <main className="layout-content">
+          <Outlet />
+        </main>
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

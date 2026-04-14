@@ -1,6 +1,8 @@
 import './Logement.css'
+import { useParams } from 'react-router-dom'
 
-const Logement = ({id}) => {
+const Logement = () => {
+    let {id} = useParams()
 
   return (
     <div className="logement">

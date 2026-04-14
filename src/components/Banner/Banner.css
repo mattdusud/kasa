@@ -13,8 +13,13 @@
   box-sizing: border-box;
   object-fit: cover;
   border-radius: 25px;
-  filter: brightness(0.4);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.banner .banner-light {
+  filter: brightness(0.6);
+}
+.banner .banner-dark {
+  filter: brightness(0.4);
 }
 .banner .slogan {
   position: absolute;
