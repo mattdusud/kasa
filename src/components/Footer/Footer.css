@@ -2,7 +2,6 @@
   background-color: black;
   height: 209px;
   width: 100%;
-  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,10 +10,22 @@
   color: white;
   gap: 30px;
 }
+@media (max-width: 865px) {
+  .footer {
+    margin-top: 0px;
+    position: relative;
+  }
+}
 .footer img {
   width: 122px;
   height: 40px;
   margin-top: 66px;
+}
+@media (max-width: 865px) {
+  .footer img {
+    margin-top: 0px;
+    top: 66px;
+  }
 }
 .footer .footer-title {
   font-family: "Montserrat", sans-serif;
@@ -24,3 +35,12 @@
   color: white;
   margin: 30px;
 }
+@media (max-width: 865px) {
+  .footer .footer-title {
+    font-size: 12px;
+    margin: 0px;
+    width: 30%;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */

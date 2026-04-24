@@ -2,7 +2,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(10, 10, 10, 0) 42%, rgba(4, 4, 4, 0.205) 99.99%, rgba(0, 0, 0, 0.5) 100%);
   border-radius: 10px;
   height: 340px;
-  width: 340px;
+  max-width: 340px;
   position: relative;
 }
 .card .card-cover {
@@ -34,6 +34,21 @@
   line-height: 143%;
   text-align: left;
   z-index: 3;
+}
+@media (max-width: 1240px) {
+  .card {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 1024px) {
+  .card {
+    max-width: 984px;
+  }
+}
+@media (max-width: 865px) {
+  .card {
+    max-width: 825px;
+  }
 }
 
 /*# sourceMappingURL=Card.css.map */

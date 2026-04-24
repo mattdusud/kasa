@@ -6,7 +6,7 @@ import Layout from './components/Layout/Layout'
 import Logement from './pages/Logement/Logement'
 import './App.css'
 
-function App() {
+export default function App() {
 
   return (
     <Routes>
@@ -19,5 +19,3 @@ function App() {
       </Routes>
   )
 }
-
-export default App

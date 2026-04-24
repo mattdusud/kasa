@@ -1,3 +1,176 @@
-
+.logement .logement-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+}
+@media (max-width: 1280px) {
+  .logement .logement-details {
+    width: calc(100% - 40px);
+    padding: 0px 20px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 785px) {
+  .logement .logement-details {
+    flex-direction: column;
+    width: calc(100% - 40px);
+    padding: 0px 20px;
+  }
+}
+.logement .logement-details .logement-title-loc-tags {
+  width: 75%;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-title-loc-tags {
+    width: 100%;
+  }
+}
+.logement .logement-details .logement-title-loc-tags h1 {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 500;
+  color: #FF6060;
+  text-align: left;
+  margin: 10px 0px;
+  line-height: 148%;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-title-loc-tags h1 {
+    font-size: 18px;
+    margin: 0px 0px;
+  }
+}
+.logement .logement-details .logement-title-loc-tags p {
+  text-align: left;
+  color: black;
+  font-size: 18px;
+  font-weight: 500px;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-title-loc-tags p {
+    font-size: 14px;
+  }
+}
+.logement .logement-details .logement-title-loc-tags ul {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0px;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-title-loc-tags ul {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.logement .logement-details .logement-title-loc-tags ul li {
+  height: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #FF6060;
+  padding: 3px 40px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  list-style-type: none;
+  text-align: left;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-title-loc-tags ul li {
+    height: 18px;
+    font-size: 10px;
+    padding: 3px 30px;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-title-loc-tags ul li {
+    font-size: 10px;
+    padding: 3px 20px;
+    min-width: 0px;
+  }
+}
+.logement .logement-details .logement-host-rating {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-host-rating {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 16px;
+  }
+}
+.logement .logement-details .logement-host-rating .logement-host-name-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: right;
+}
+.logement .logement-details .logement-host-rating .logement-host-name-picture .logement-host-name {
+  width: 80px;
+  flex-wrap: wrap;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF6060;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-host-rating .logement-host-name-picture .logement-host-name {
+    font-size: 12px;
+  }
+}
+.logement .logement-details .logement-host-rating .logement-host-name-picture .logement-host-picture {
+  border-radius: 32px;
+  width: 64px;
+}
+@media (max-width: 785px) {
+  .logement .logement-details .logement-host-rating .logement-host-name-picture .logement-host-picture {
+    border-radius: 16px;
+    width: 32px;
+  }
+}
+.logement .logement-details .logement-host-rating .logement-rating .star-full {
+  color: blue;
+}
+.logement .logement-details .logement-host-rating .logement-rating .star-empty {
+  color: gray;
+}
+.logement .logement-description-equipment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 1280px) {
+  .logement .logement-description-equipment {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 785px) {
+  .logement .logement-description-equipment {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+  }
+}
+.logement .logement-description-equipment > * {
+  width: 582px;
+}
+@media (max-width: 785px) {
+  .logement .logement-description-equipment > * {
+    width: calc(100% - 40px);
+  }
+}
+.logement .logement-description-equipment > * ul li {
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=Logement.css.map */

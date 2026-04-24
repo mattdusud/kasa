@@ -7,8 +7,34 @@
   background-color: #f6f6f6;
   border-radius: 25px;
   height: auto;
-  width: calc(100% - 100px);
   padding: 56px 50px;
+}
+@media (max-width: 1240px) {
+  .homecards {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin-top: 22px;
+    grid-gap: 22px;
+  }
+}
+@media (max-width: 865px) {
+  .homecards {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 865px;
+    margin-top: 22px;
+    grid-gap: 22px;
+  }
+}
+@media (max-width: 785px) {
+  .homecards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    background-color: white;
+    padding: 0px;
+    max-width: 745px;
+    margin-top: 22px;
+    grid-gap: 22px;
+  }
 }
 
 /*# sourceMappingURL=Homecards.css.map */

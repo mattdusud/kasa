@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './Collapse.css'
 
-const Collapse = ({ id, dropdownTitle, dropdownContent }) => {
+export default function Collapse({ id, dropdownTitle, dropdownContent }) {
     const [active, setActive] = useState(false);
 
     return (
@@ -18,10 +18,8 @@ const Collapse = ({ id, dropdownTitle, dropdownContent }) => {
             </div>
 
             <div className={`dropdown-section ${active ? "active" : ""}`}>
-                <p className={`dropdown-content ${active ? "active" : ""}`}>{dropdownContent}</p>
+                <div className={`dropdown-content ${active ? "active" : ""}`}>{dropdownContent}</div>
             </div>
         </div>
     );
 }
-
-export default Collapse;

@@ -2,7 +2,7 @@ import Card from '../Card/Card'
 import './Homecards.css'
 import logements from '../../data/logements.json'
 
-function Homecards() {
+export default function Homecards() {
 
     return (
         <div className="homecards">
@@ -12,4 +12,3 @@ function Homecards() {
         </div>
     )
 }
-export default Homecards

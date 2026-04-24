@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import './Layout.css'
 
-function Layout() {
+export default function Layout() {
   return (
     <>
       <div className="layout">
@@ -16,5 +16,3 @@ function Layout() {
     </>
   )
 }
-
-export default Layout

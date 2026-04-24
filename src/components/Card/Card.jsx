@@ -1,7 +1,7 @@
 import './Card.css'
 import { Link } from 'react-router-dom'
 
-const Card = ({ logement }) => {
+export default function Card({ logement }) {
     return (
         <Link to={`/logement/${logement.id}`}>
             <div className="card" id={logement.id}>
@@ -12,5 +12,3 @@ const Card = ({ logement }) => {
         </Link>
     )
 }
-
-export default Card

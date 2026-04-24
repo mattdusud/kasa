@@ -60,6 +60,17 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 785px) {
+  #root {
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 375px) {
+  #root {
+    padding: 0px 0px;
+  }
 }
 
 h1,

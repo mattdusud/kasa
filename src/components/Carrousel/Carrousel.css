@@ -1,0 +1,77 @@
+.carrousel {
+  position: relative;
+  width: 1240px;
+  height: 415px;
+  margin: 0 auto;
+}
+@media (max-width: 1260px) {
+  .carrousel {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+}
+@media (max-width: 785px) {
+  .carrousel {
+    width: calc(100% - 40px);
+    height: 255px;
+  }
+}
+.carrousel .carrousel-images {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrousel .carrousel-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.carrousel .carrousel-controls {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 23px;
+  right: 23px;
+  transform: translateY(-50%);
+}
+.carrousel .carrousel-controls .carrousel-arrow {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+}
+@media (max-width: 785px) {
+  .carrousel .carrousel-controls .carrousel-arrow {
+    width: 24px;
+    height: 24px;
+  }
+}
+.carrousel .carrousel-controls .carrousel-arrow img {
+  width: 100%;
+  height: 100%;
+}
+.carrousel .carrousel-controls .carrousel-arrow:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+.carrousel .carrousel-counter {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=Carrousel.css.map */

@@ -10,10 +10,21 @@
     color: white;
     gap: 30px;
 
+
+    @media (max-width: 865px) {
+        margin-top: 0px;
+        position: relative;
+    }
+
     img {
         width: 122px;
         height: 40px;
         margin-top: 66px;
+
+        @media (max-width: 865px) {
+            margin-top: 0px;
+            top: 66px;
+        }
     }
 
     .footer-title {
@@ -23,5 +34,11 @@
         line-height: 143%;
         color: white;
         margin: 30px;
+
+        @media (max-width: 865px) {
+            font-size: 12px;
+            margin: 0px;
+            width: 30%;
+        }
     }
 }
