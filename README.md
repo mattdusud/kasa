@@ -9,8 +9,7 @@ Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de 
 ## Techologie
 
 **Client:** React +Vite
-
-
+**Server:** Node.js
 
 
 ## Installation
