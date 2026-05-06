@@ -1,11 +1,12 @@
 import './About.css'
 import Banner from '../../components/Banner/Banner'
 import Collapse from '../../components/Collapse/Collapse'
+import bannerImg from "../../assets/photoAbout.png"
 
 export default function About() {
   return (
     <div className="about">
-      <Banner src="/src/assets/photoAbout.png" alt="Image de fond de la bannière de la page À propos" text="" light={true} />
+      <Banner src={bannerImg} alt="Image de fond de la bannière de la page À propos" text="" light={true} />
       <Collapse id="1" dropdownTitle="Fiabilité" dropdownContent="Les annonces postées sur Kasa garantissent une fiabilité totale. 
             Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes." />
       <Collapse id="2" dropdownTitle="Respect" dropdownContent="La bienveillance fait partie des valeurs fondatrices de Kasa. 

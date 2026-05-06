@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './Collapse.css'
-
-export default function Collapse({ id, dropdownTitle, dropdownContent }) {
+import fleche from "../../assets/arrow_up.svg"
+export default function Collapse({ dropdownTitle, dropdownContent }) {
     const [active, setActive] = useState(false);
 
     return (
@@ -13,7 +13,7 @@ export default function Collapse({ id, dropdownTitle, dropdownContent }) {
                     className={`dropdown-icon ${active ? "active" : ""}`}
                     onClick={() => setActive(!active)}
                 >
-                    <img src="/src/assets/arrow_up.svg" alt="Flèche" />
+                    <img src={fleche} alt="Flèche" />
                 </div>
             </div>
 
